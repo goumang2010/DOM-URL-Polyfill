@@ -20,8 +20,16 @@
     "type": "git",
     "url": "https://github.com/arv/DOM-URL-Polyfill"
   },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "build": "./node_modules/.bin/rollup -c"
+  },
   "devDependencies": {
+    "chai": ">=1.5",
     "mocha": ">=1.9",
-    "chai": ">=1.5"
-  }
+    "rollup": "^0.41.6",
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {}
 }
